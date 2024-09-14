@@ -43,23 +43,23 @@ function Products() {
                 </Card>
             </Col>
             <Col>
-                <Card>
-                    <CardHeader>
-                        Mobiles Laptops Ipad
-                    </CardHeader>
-                    <Card.Img src='Images/Phone.jpeg' className='card-img-custom' />
-                    <CardBody>
-                    <Card.Title>Ready to explore with Smartness</Card.Title>
-                <Card.Text style={{ fontWeight:'medium' }}>
-                  Order you favourite smart technology of your favourite brand at your doorstep.
+            <Card>
+              <CardHeader>
+                Mobiles Laptops iPad
+              </CardHeader>
+              <Card.Img src='Images/Phone.jpeg' className='card-img-custom' />
+              <CardBody>
+                <Card.Title>Ready to explore with Smartness</Card.Title>
+                <Card.Text style={{ fontWeight: 'medium' }}>
+                  Order your favorite smart technology from your favorite brand at your doorstep.
                 </Card.Text>
-                    </CardBody>
-                    <CardFooter className='card-footer-custom' style={{hover:'blue'}}>
-              <Link to='/products/vegetables'>Shop Now</Link>
+              </CardBody>
+              <CardFooter className='card-footer-custom'>
+                {}
+                <Link to='/products/brands'>Shop Now</Link>
               </CardFooter>
-
-                </Card>
-            </Col>
+            </Card>
+          </Col>
             
         </Row>
         <Row style={{ marginTop: '50px' }}>

@@ -1,0 +1,48 @@
+/* Ensure all card heights are the same */
+.card-hover {
+    height: 100%;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Ensure image maintains aspect ratio and fits within container */
+  .card-img-container {
+    width: 100%;
+    height: 250px; /* Fixed height to ensure uniformity */
+    overflow: hidden;
+  }
+  
+  .card-img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fits and is not distorted */
+    transition: transform 0.3s ease-in-out;
+    padding-left: 20px;
+    padding-top: 5px;
+  }
+  
+  .card-img-container:hover .card-img {
+    transform: scale(1.1); /* Adds a zoom-in effect on hover */
+  }
+  
+  /* Flexbox ensures card body content like buttons stays at the bottom */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-title, .card-text {
+    flex-grow: 0;
+  }
+  
+  .btn {
+    flex-grow: 1;
+    align-self: flex-end;
+  }
+  
