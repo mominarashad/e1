@@ -9,6 +9,10 @@ import SignUp from './Component/SignUp';
 import SignIn from './Component/SignIn';
 import Cart from './Component/Cart';
 import Footer from './Component/Footer';
+import Brands from './Component/Brands';
+import ProductList from './Component/ProductList';
+import ProductDetail from './Component/ProductDetail'
+
 function App() {
   return (
     <>
@@ -21,6 +25,9 @@ function App() {
         <Route path='/signup' element={<SignUp/>}/>
         <Route path='/signin' element={<SignIn/>}/>
         <Route path='/cart' element={<Cart/>}/>
+        <Route path="/products/brands" element={<Brands />} />
+        <Route path="/products/:brand" element={<ProductList />} />
+        <Route path="/product/:id" element={<ProductDetail />} /> 
        </Routes>
        <Footer/>
     </>

@@ -1,0 +1,27 @@
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .product-details {
+    padding: 20px;
+  }
+  
+  .product-details h2 {
+    margin-bottom: 80px;
+  }
+  
+  .product-details p {
+    margin-bottom: 10px;
+  }
+  
+  .gap-3 {
+    gap: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    align-self: center;
+  }
+  

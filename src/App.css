@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+/*{
+  background-color: #E6E6FA;
+}*/
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Set the container background to #e6e6fa */
+.container-bg {
+  background-color: #e6e6fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Ensure cards have a white background and no shadow by default */
+.card {
+  background-color: white; /* Keep cards white */
+}
+
+/* Hover effect for top-selling products */
+.top-selling-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.top-selling-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
