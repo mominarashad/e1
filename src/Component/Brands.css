@@ -1,15 +1,15 @@
 .static-sidebar {
     background-color: black;
-    color: white;
+    color: black;
     padding: 20px;
-    height: 100vh;
+    height: 210vh;
     position: static;
     top: 0;
     
   }
   
   .brand-item {
-    background-color: transparent;
+    background-color: black;
     border: none;
     margin-bottom: 50px;
   }
@@ -22,7 +22,7 @@
   
   .brand-link:hover {
     color: lightgray;
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   .main-content {
@@ -33,5 +33,6 @@
   body {
     margin: 0;
     padding: 0;
+    
   }
   
